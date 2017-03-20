@@ -5026,7 +5026,7 @@ pub mod root {
             pub mStates: root::mozilla::EventStates_InternalType,
         }
         pub type EventStates_InternalType = u64;
-        pub type EventStates_ServoType = u16;
+        pub type EventStates_ServoType = u64;
         #[test]
         fn bindgen_test_layout_EventStates() {
             assert_eq!(::std::mem::size_of::<EventStates>() , 8usize , concat
